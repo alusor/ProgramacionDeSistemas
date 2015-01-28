@@ -4,5 +4,5 @@ hash = mnemonicos.read
 puts hash.class
 hash = hash.split
 puts hash.class
-puts  hash[6]
+puts  hash[0]
 
