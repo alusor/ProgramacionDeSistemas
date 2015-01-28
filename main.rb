@@ -1,7 +1,8 @@
 #Carga del diccionario de mnemonicos
-mnemonicos = File.open("mnemonicos.dic","r")
+mnemonicos = File.open("P1.ASM","r")
 hash = mnemonicos.read
 puts hash.class
-hash = hash.split(',')
+hash = hash.split
 puts hash.class
-puts  hash[5]
+puts  hash[6]
+
